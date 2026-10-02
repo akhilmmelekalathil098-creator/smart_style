@@ -11,5 +11,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY}}
-          source: "tests/a.txt,tests/b.txt"
+          source: "."
           target: "/var/www/html"
